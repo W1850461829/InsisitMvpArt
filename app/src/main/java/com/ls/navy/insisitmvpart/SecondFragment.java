@@ -32,6 +32,7 @@ public class SecondFragment extends BaseFragment<MainPresenter> implements IView
     public void handleMessage(Message message) {
         switch (message.what) {
             case 0:
+
                 mRootView.setBackgroundResource(message.arg1);
                 break;
             case 1:
